@@ -1,0 +1,9 @@
+dict1={'name':'sajay','age':20,'place':'pullad'}
+print(dict1)
+dict2=dict1.copy()
+print(dict2)
+print("values=",dict1.values())
+print("keys=",dict1.keys())
+dict3={'aadhar':'222334456'}
+dict1.update(dict3)
+print(dict1)
